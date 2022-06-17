@@ -21,7 +21,7 @@ main {
 }
 
 .info, .form-container {
-    width: 30%;
+    width: 32%;
     padding: 20px;
 }
 
@@ -36,13 +36,24 @@ h1 {
 
 input, button {
     display: block;
-    width: 80%;
-    /* margin: auto; */
+    width: 82%;
+    margin: 12px auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 175, 175);
+}
+
+button {
+    background: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
 }
 
 
 #reg-form {
     background-color: #fff;
-    padding-top: 50px;
-    padding-left: 50px;
+    border-radius: 8px;    
+}
+
+.form-control {   
+    padding-top: 30px;   
 }
