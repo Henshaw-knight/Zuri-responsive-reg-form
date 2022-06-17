@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+} 
+
+body {
+    background-color: hsl(0, 100%, 74%); 
+    height: 100vh;
+}
+
+main {
+    background: url('images/bg-intro-desktop.png');
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info, .form-container {
+    width: 30%;
+    padding: 20px;
+}
+
+.info p {
+    font-size: 12px;
+    margin: 25px 0;
+}
+
+h1 {
+    line-height: 1;
+}
+
+input, button {
+    display: block;
+    width: 80%;
+    /* margin: auto; */
+}
+
+
+#reg-form {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+}
